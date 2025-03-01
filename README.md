@@ -27,4 +27,11 @@
 <p>Run the flask code using following syntax</p>
 <code>flask --app leaf run</code>
 
-<h3>Results</h3>
+<h2>Results</h2>
+<h3>Home Page</h3>
+<p>where you need to upload image</p>
+<img src="homepage.png">
+
+<h3>Prediction page</h3>
+<p>Where prediction of plant disease and cure is displayed</p>
+<img src="prediction.png">
