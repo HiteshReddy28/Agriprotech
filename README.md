@@ -21,6 +21,8 @@
 <code>cd env
 ./Scripts/activate
 </code>
+<h3>Install all requirements</h3>
+<code>pip install -r requirements.txt</code>
 
 <h2>Run the code</h2>
 <p>Change all the necessary file paths in the code</p>
