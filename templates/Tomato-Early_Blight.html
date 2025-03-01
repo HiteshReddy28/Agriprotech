@@ -21,16 +21,21 @@
             border-radius: 15px;
             border: 2px solid black;
         }
+        .details{
+            padding: 10px;
+            color: white;
+        }
 		
     </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
-<body background="{{url_for('static',filename = 'images/Back.jpg')}}">
+<body style="background-image: url(../static/images/plants.jpg);">
 
 
 
     <div>
-        <h1 style="text-align:center;font-size:4rem">Predict Tomato Leaf Disease & Get Cure</h1>
+        <h1 style="text-align:center;font-size:4rem;color: white;backdrop-filter: blur(10px);">Predict Tomato Leaf Disease & Get Cure</h1>
     </div>
 
    <br>
@@ -44,24 +49,20 @@
                 <span class="border border-primary">
                     <img src="{{url_for('static',filename = 'images/Tomato___Early_blight.JPG' )}}" alt="User Image" style="width:500px;height:500px;">
                     
-
                 </span>
             </div>
 
-            <div class="col-sm">
+            <div class="col-sm" >
 
                 <div>
-                    <h1 style="padding: 15px; background-color: rgb(15, 15, 15); color: white;"
+                    <h1 style="padding: 15px; color: white; backdrop-filter: blur(10px);"
                         class="text-center mb-5 content-h1 rounded">
                         {{pred_output}} </h1>
                 </div>
-                <div class="details">
+                <div class="details" >
 					
 					<h4><b> Treatment : </b> </h4>
                     <h6>
-
-
-                        
                         Tomatoes that have early blight require immediate attention before the disease takes over the plants. Thoroughly spray the plant (bottoms of leaves also) with Bonide Liquid Copper Fungicide concentrate or Bonide Tomato & Vegetable. Both of these treatments are organic..</br></br>
                         
 
