@@ -9,3 +9,30 @@
  suggestions for appropriate medicines and pesticides.
 </li>
 </ul>
+<h2>Setup</h2>
+<p>Navigate to the folder where you want to clone the project</p>
+<h3>Git Clone</h3>
+<code>git clone https://github.com/HiteshReddy28/Agriprotech.git</code>
+<h3>Environment setup</h3>
+<p>After cloning create python environment using the following command</p>
+<code>python -m venv env</code>
+<h3>How to activate env</h3>
+<code>cd env
+./Scripts/activate
+</code>
+<h3>Install all requirements</h3>
+<code>pip install -r requirements.txt</code>
+
+<h2>Run the code</h2>
+<p>Change all the necessary file paths in the code</p>
+<p>Run the flask code using following syntax</p>
+<code>flask --app leaf run</code>
+
+<h2>Results</h2>
+<h3>Home Page</h3>
+<p>where you need to upload image</p>
+<img src="homepage.png">
+
+<h3>Prediction page</h3>
+<p>Where prediction of plant disease and cure is displayed</p>
+<img src="prediction.png">
